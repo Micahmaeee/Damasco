@@ -1,1 +1,101 @@
-
+.container {
+  grid-auto-rows: minmax(10px, auto);
+  grid-template-columns: 200px auto 200px;
+ 
+}
+header
+{
+	
+	background-image: url(logo2.jpg);
+	height: 50vh;
+	background-size: cover;
+	background-position: center;
+	 grid-row-gap: 10px;
+}
+.main-nav
+{
+	text-align: center;
+	list-style: none;
+	margin-top: 10px;
+}
+.main-nav li 
+{
+	display: inline-block;
+	
+}
+.main-nav li a 
+{
+	color: white;
+	text-decoration: none;
+	padding: 10px 70px;
+	font-family: "bold";
+	font-size: 50px;
+	border: 1px solid white;
+	
+}
+.logo img
+{
+	width: 350px;
+	height: 250px;
+}
+.main
+{
+	
+	grid-column: 2;
+  grid-row: 2 / 5;
+  grid-row-gap: 10px;
+  background: skyblue;
+}
+h1
+{
+	text-align: center;
+	color: white;
+	text-transform: uppercase;
+	font-size: 70px;
+}
+.button
+{
+	margin-top: 30px;
+	margin-left: 300px;
+}
+.btn
+{
+	border: 2px solid white;
+	padding: 10px 50px;
+	text-decoration: none;
+	margin-right: 5px;
+	font-size: 50px;
+}
+.btn-one
+{
+	background-color: darkorange;
+}
+.btn-two:hover
+{
+	background-color: darkorange;
+	transition: all 0.2s ease-in;
+}
+.picture img
+{
+	width: 900px;
+	height: 400px;
+}
+	h2
+{
+	text-align: center;
+	color: black;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+	.footer {
+  grid-column: 1/4;
+  grid-row: 4;
+  background: grey;
+}
+p 
+{
+	display: inline-block;
+		border: 1px solid white;
+	padding: 20px 70px;
+	font-size: 17px;
+}
